@@ -234,7 +234,7 @@
             this.Registration.Name = "Registration";
             this.Registration.Size = new System.Drawing.Size(253, 44);
             this.Registration.TabIndex = 26;
-            this.Registration.Text = "Зарегестририроваться";
+            this.Registration.Text = "Зарегистрироваться";
             this.Registration.UseVisualStyleBackColor = false;
             this.Registration.Click += new System.EventHandler(this.Registration_Click);
             // 
@@ -255,7 +255,7 @@
             this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label10.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label10.Location = new System.Drawing.Point(35, 134);
+            this.label10.Location = new System.Drawing.Point(35, 139);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(83, 20);
             this.label10.TabIndex = 28;
@@ -349,6 +349,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Name);
             this.Controls.Add(this.pictureBox1);
+            this.Name = "RegistrForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.RegistrForm_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
